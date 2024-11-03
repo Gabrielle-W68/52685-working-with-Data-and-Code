@@ -85,7 +85,7 @@ To do:
 
 
 ## Contact
-Created by [Your Name] - feel free to reach out at [your-email@example.com].
+Created by Jiayi Xu - feel free to reach out at [jiayi.xu-8@student.uts.edu.au].
 
 
 <!-- Optional -->
