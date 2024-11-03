@@ -1,4 +1,4 @@
-# Project Name
+# Jumping Mazes Game
 A pixel-art platformer game where players navigate maze-like levels, collect coins, avoid enemies, and find treasure chests to unlock the next level. Inspired by classic games like Super Mario, the game includes collectible items, enemy AI, and a double-jump mechanic for enhanced mobility.
 ./img/mario.png
 ## Table of Contents
