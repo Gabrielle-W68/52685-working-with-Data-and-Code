@@ -1,6 +1,7 @@
 # Jumping Mazes Game
 A pixel-art platformer game where players navigate maze-like levels, collect coins, avoid enemies, and find treasure chests to unlock the next level. Inspired by classic games like Super Mario, the game includes collectible items, enemy AI, and a double-jump mechanic for enhanced mobility.
-./img/mario.png
+
+![Example screenshot](./img/mario.png)
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
@@ -34,48 +35,57 @@ A pixel-art platformer game where players navigate maze-like levels, collect coi
 - Physics-Based Jumping: The game incorporates realistic gravity and momentum in its jumping mechanics, allowing players to perform precise jumps. The gravity setting adds a more natural feel to character movements.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/1.png)
+![Example screenshot](./img/2.png)
+![Example screenshot](./img/3.png)
+![Example screenshot](./img/4.png)
+![Example screenshot](./img/5.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
+1.Download or clone the repository.
+2.Open MakeCode Arcade and import the project files.
+3.Ensure any required MakeCode Arcade extensions for sprites and animations are installed.
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+Movement: Use arrow keys to move the character left or right.
+Jumping: Press the jump key once or twice to navigate platforms and evade enemies.
+Goal: Collect coins to increase score and locate the treasure chest to unlock the next level.
+Enemy Interaction: Some enemies can be avoided by jumping; others, inspired by "Goombas" from Super Mario, can be jumped on to defeat.
 
-`write-your-code-here`
+`// Example Code for Double Jump
+if (hero.isHittingGround()) {
+    canDoubleJump = true;
+}
+if (jumpPressed && canDoubleJump) {
+    hero.vy = jumpVelocity;
+    canDoubleJump = false;
+}`
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: complete.
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
+- Enhanced Enemy AI: Add behaviors such as timed attacks or dodging.
+- Power-Ups: Include items that temporarily increase speed or grant immunity.
+- Additional Levels: Expand the game with more levels that introduce environmental hazards and new challenges.
 To do:
-- Feature to be added 1
-- Feature to be added 2
+
+- Implement background music and sound effects.
+- Develop a scoring system and high score leaderboard.
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- Inspired by Super Mario Bros. and similar platformers.
+- Thanks to MakeCode Arcade for providing a platform for accessible game development.
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [Your Name] - feel free to reach out at [your-email@example.com].
 
 
 <!-- Optional -->
